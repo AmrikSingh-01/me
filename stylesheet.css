@@ -1,0 +1,243 @@
+/*% value work weird in zoom*/
+body{
+    margin:0;
+    padding:0;
+    /* text-align:center works */
+    background-color:rgb(235, 251, 247);
+}
+.intro
+{
+    /* background-color:#EAF6F6; */
+    margin:15px;
+    border-radius:50px;
+    border:5px solid #58b3b3;
+    padding:20px;
+    text-align:center;
+    overflow:hidden;
+    height:535px;
+    position: relative;
+}
+h1{
+    font-family: 'Sacramento', cursive;
+    color:#66BFBF;
+    font-size:80px;
+    margin-top:34px;
+    margin-bottom:0px;
+}
+.oc{
+    margin-top:1px;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    color:#66BFBF;
+    font-size:30px;
+}
+h3{
+    
+        font-family: 'Montserrat', sans-serif;
+        color:#66BFBF;
+        font-size:20px;
+
+}
+@keyframes cloud
+{
+    from{
+        left:-50px;
+    }
+    to{
+        left:1220px;
+    }
+}
+@keyframes cloud2
+{
+    from{
+        left:-100px;
+    }
+    to{
+        left:1300px;
+    }
+}
+.cloud1{
+    position:absolute;
+    width:70px;
+    animation-name:cloud;
+    animation-duration:7s;
+    animation-delay:-1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+    top:5px;
+}
+.cloud2{
+    position:absolute;
+    width:70px;
+    left:-50px;
+    animation-name:cloud2;
+    animation-duration:15s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.moun{
+    margin-top: 60px;
+    width:425px;
+}
+.profile{
+    text-align:center;
+}
+.profile p{
+    /* text-align:center;applies only to p */
+    width:360px;
+margin:auto;
+font-size:20px;
+    
+}
+.profile h2{
+    margin-top:0;
+    font-size: 40px;/*margin-top:none;*/
+}
+.profile img{
+    margin-top:40px;
+    width:250px;
+    
+}
+
+hr{
+    margin-top:40px;
+    border:none;
+    border-top:dotted rgb(177, 176, 176);
+    width:70px;
+    border-width: 8px;
+}
+.bgmoun{
+  /*   position: absolute;
+     margin:0; 
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    color:#EAF6F6;
+    background-image: url("images/peakpx.jpg");
+    opacity:0.2;
+    z-index: 0;*/
+    position:absolute;/*if left right not set then it will be in the center";*/
+    left:0;
+    top:0;
+   width:100%;
+   height:120%;
+   z-index:-1;
+   opacity:0.3;
+    
+} 
+.skills{
+    margin-top:40px;
+    text-align:center;
+}
+.skills img{
+    width:100px;
+}
+.skills h2{
+    font-size:40px;
+}
+.skills p{
+    width:358px;
+    /* text-align:justify; */
+    font-size:20px;
+    margin:auto
+}
+ .skills div{
+    width:458px;
+    margin:auto;
+}
+.sing{
+    /* margin-top:100px;does not work because it does not have its own content */
+       padding-top:30px;
+}
+.code img{
+    float:left;
+    margin-right:10px;
+    margin-top:20px;
+}
+.code p{
+    
+    margin-right:0px;
+    margin-top:5px;
+    text-align:left;
+}
+.code h3{
+    margin-bottom:0px;
+}
+.sing h3{
+    margin-bottom:0px;
+}
+.sing img{
+    float:right;
+    margin-top:40px;
+    margin-left:10px;
+}
+.sing p{
+    margin-bottom:40px;
+    text-align:left;
+    margin-left:0px;
+    /* margin-left:10px;witll measure margin from parent; */
+    /* clear:right; */
+}
+.contact{
+    text-align:center;
+    
+}
+.contact h2{
+            font-size: 40px;
+            margin-top:40px;
+            margin-bottom:0px;
+}
+.contact h3{
+    margin-top:10px;
+    
+}
+.sm
+{
+    position:relative;
+    width:570px;
+    margin:40px auto;
+    height:70px;
+    
+}
+.sm img{
+    
+    
+    width:70px;
+    margin-bottom:40px;
+    position:absolute;
+
+}
+.insta{
+    left:0;
+}
+.tel{
+    right:0;
+}
+.fb{
+    left:250px;
+}
+.sm img:hover{
+    width:80px;
+    filter: invert(73%) sepia(38%) saturate(662%) hue-rotate(125deg) brightness(83%) contrast(90%);
+}
+.end{
+    background-color: #66BFBF;
+    height:60px;
+    text-align:center;
+    padding-top:5px;
+}
+.end p{
+    color:#EAF6F6;
+    font-size:20px;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+span{
+    display:inline-block;
+    width:100px;
+}
+
+
